@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "entrypoint": "07_coding_agent_prompt.md",
+  "provenance": "simulated-teksplan-style",
+  "validation_command": [
+    "python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "files": [
+    {
+      "path": "00_provenance.md",
+      "sha256": "b6067f901a7273d4a167db449a3ed0ca33b8bc0407390d736a3210c1261a3a84"
+    },
+    {
+      "path": "01_requirements.md",
+      "sha256": "e4f4c6f152a13f7f0eadb7073a9954f5ddd0c164ef7b73e2d8364ca4de696252"
+    },
+    {
+      "path": "02_architecture.md",
+      "sha256": "9282532a6936ef0742966fe7987a575924a7752ce979b86103f65ef2c100ee9d"
+    },
+    {
+      "path": "03_data_and_api.md",
+      "sha256": "e36a93b2769b0b302f964aa6bd6b17868547d1baad25629a804749a679ecb2c7"
+    },
+    {
+      "path": "04_ui.md",
+      "sha256": "0a0ebfeb7dbf90d88a86bfd5309282ed38765f38db092d846ebea79b7c7b8688"
+    },
+    {
+      "path": "05_acceptance_tests.md",
+      "sha256": "57a69cff1efc13224c1dcf3f06ae93e9d0eb7c18b632f71fe7d5f3a53cf5dd9c"
+    },
+    {
+      "path": "06_tasks.json",
+      "sha256": "74603257b23c6b97b44a284ea4f8d7e7e874bce64a08c12dc4c68a61bd48bc02"
+    },
+    {
+      "path": "07_coding_agent_prompt.md",
+      "sha256": "c3b1a5157e3a55fc18d158e928c3101f2bfd8f882771b7c33809cfe74ab3b8ad"
+    }
+  ]
+}

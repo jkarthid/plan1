@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    {
+      "id": "T1",
+      "order": 1,
+      "goal": "Read complete plan and produce researched low-level design",
+      "depends_on": [],
+      "outputs": [
+        "docs/design/research.md",
+        "docs/design/low-level-design.md"
+      ]
+    },
+    {
+      "id": "T2",
+      "order": 2,
+      "goal": "Implement validated SQLite storage and HTTP API",
+      "depends_on": [
+        "T1"
+      ],
+      "outputs": [
+        "taskdesk/",
+        "tests/"
+      ]
+    },
+    {
+      "id": "T3",
+      "order": 3,
+      "goal": "Implement responsive TaskDesk web interface",
+      "depends_on": [
+        "T2"
+      ],
+      "outputs": [
+        "static/"
+      ]
+    },
+    {
+      "id": "T4",
+      "order": 4,
+      "goal": "Run all acceptance checks and document startup and results",
+      "depends_on": [
+        "T2",
+        "T3"
+      ],
+      "outputs": [
+        "README.md",
+        "docs/validation/",
+        "tests/"
+      ]
+    }
+  ]
+}
